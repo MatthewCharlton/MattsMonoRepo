@@ -1,4 +1,5 @@
-const ValidateBase = require('../Validate').ValidateBase;
+const ValidateBase = require('matts-sick-validation-func-mono-repo')
+  .ValidateBase;
 
 const isWebAddress = ({ value, min = 0, max = '', message } = {}) =>
   new ValidateBase().matches({
