@@ -1,3 +1,8 @@
-const result = require('../test');
+const isWebAddress = require('../test');
 
-console.log('Test is letters: ' + result);
+const webbAddress = 'http://test.com';
+console.log(
+  webbAddress +
+    ' is a valid web address: ' +
+    isWebAddress({ value: webbAddress }).isValid
+);
