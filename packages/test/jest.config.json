@@ -1,0 +1,8 @@
+{
+  "name": "matts-monorepo-test",
+  "transform": {
+    "^.+\\.js$": "babel-jest"
+  },
+  "verbose": true,
+  "moduleFileExtensions": ["js", "json", "jsx"]
+}

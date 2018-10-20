@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jest.config.json ./test.spec.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "matts-sick-validation-func-mono-repo": "^0.0.1"
+    "matts-sick-validation-func-mono-repo": "^0.0.1",
+    "babel-cli": "^6.3.15",
+    "babel-core": "^6.3.15",
+    "babel-jest": "^20.0.3",
+    "jest": "^23.6.0"
   }
 }
