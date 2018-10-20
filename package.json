@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/lerna run test",
+    "bootstrap": "./node_modules/.bin/lerna bootstrap",
     "build": "rollup -c --environment BUILD:production"
   },
   "repository": {
