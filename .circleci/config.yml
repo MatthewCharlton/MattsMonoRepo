@@ -37,7 +37,7 @@ jobs:
       - run: lerna bootstrap
 
       # run tests!
-      - run: lerna run test
+      - run: npm run test
 
 
 
