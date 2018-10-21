@@ -6,7 +6,8 @@
   "scripts": {
     "test": "lerna run test",
     "bootstrap": "lerna bootstrap",
-    "build": "rollup -c --environment BUILD:production"
+    "publish:from-git": "lerna publish from-git",
+    "build": "lerna run build"
   },
   "repository": {
     "type": "git",

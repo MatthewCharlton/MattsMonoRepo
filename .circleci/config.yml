@@ -33,8 +33,14 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # get everything installed
+      # get everything installed and set up
       - run: npm run bootstrap
 
       # run tests!
       - run: npm run test
+
+      # run builds!
+      # - run: npm run build
+
+      # publish to registry!
+      # - run: npm run publish:from-git
