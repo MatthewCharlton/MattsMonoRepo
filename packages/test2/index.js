@@ -1,8 +1,17 @@
 const isWebAddress = require('../test');
 
-const webbAddress = 'http://test.com';
+const webAddress = 'http://test.com';
+
 console.log(
-  webbAddress +
+  webAddress +
     ' is a valid web address: ' +
-    isWebAddress({ value: webbAddress }).isValid
+    isWebAddress({ value: webAddress }).isValid
+);
+
+const invalidWebAddress = 'http://blah.c';
+
+console.log(
+  invalidWebAddress +
+    ' is not a valid web address: ' +
+    isWebAddress({ value: invalidWebAddress, message: 'Not valid' }).messages
 );

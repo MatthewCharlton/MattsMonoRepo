@@ -2,7 +2,7 @@
   "packages": ["packages/*"],
   "command": {
     "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"]
+      "ignoreChanges": ["*.spec.*", "*.md"]
     }
   },
   "version": "independent"
