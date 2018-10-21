@@ -45,7 +45,8 @@ jobs:
       # run builds!
       # - run: npm run build
 
-      - run: npm whoami
+      # check for correct user
+      # - run: npm whoami
 
       # publish to registry!
-      # - run: npm run publish:from-git
+      - run: npm run publish:from-git
