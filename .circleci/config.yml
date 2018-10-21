@@ -19,6 +19,9 @@ jobs:
     steps:
       - checkout
 
+      # copy npm token from env variable into .npmrc file
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+
       # Download and cache dependencies
       - restore_cache:
           keys:
