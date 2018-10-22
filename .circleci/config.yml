@@ -45,8 +45,8 @@ jobs:
       # run builds!
       # - run: npm run build
 
-      # check for correct user
-      # - run: npm whoami
+      # Reset git history
+      - run: git reset --hard
 
       # publish to registry!
       - run: npm run publish:from-git
