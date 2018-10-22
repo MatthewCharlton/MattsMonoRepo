@@ -1,6 +1,6 @@
 {
   "name": "matts-monorepo-test-func",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "matts-sick-validation-func-mono-repo": "^0.0.1",
     "babel-cli": "^6.3.15",
     "babel-core": "^6.3.15",
     "babel-jest": "^20.0.3",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "matts-sick-validation-func-mono-repo": "^0.0.2"
   }
 }

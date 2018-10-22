@@ -1,6 +1,6 @@
 {
   "name": "matts-sick-validation-func-mono-repo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Validation functions",
   "browser": "dist/matts-sick-validation-func.min.js",
@@ -15,14 +15,15 @@
     "type": "git",
     "url": "https://github.com/MatthewCharlton/Validate.git"
   },
-  "keywords": ["validation functions"],
+  "keywords": [
+    "validation functions"
+  ],
   "author": "MatthewCharlton",
   "license": "ISC",
   "files": [
     "src",
     "dist"
   ],
-  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.3.15",
     "babel-core": "^6.3.15",
