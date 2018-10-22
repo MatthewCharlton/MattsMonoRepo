@@ -1,6 +1,7 @@
 {
   "name": "matts-sick-validation-func-mono-repo",
   "version": "0.0.1",
+  "private": true,
   "description": "Validation functions",
   "browser": "dist/matts-sick-validation-func.min.js",
   "main": "dist/matts-sick-validation-func.common.js",
