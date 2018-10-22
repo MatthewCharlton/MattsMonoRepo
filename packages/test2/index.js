@@ -1,4 +1,4 @@
-const isWebAddress = require('../test');
+const isWebAddress = require('matts-monorepo-test-func');
 
 const webAddress = 'http://test.com';
 

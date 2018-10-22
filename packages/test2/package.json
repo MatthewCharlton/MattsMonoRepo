@@ -4,5 +4,8 @@
   "description": "",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "matts-monorepo-test-func": "^1.0.0"
+  }
 }
